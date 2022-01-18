@@ -1,0 +1,53 @@
+body {
+    width: 1440px;
+    height: 1024px;
+    background-color: #9C835F;
+}
+
+.heading {
+    display: flex;
+}
+
+a {
+    position: absolute;
+    width: 55px;
+    height: 87px;
+    left: 37px;
+    top: 12px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 98px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+color: #724C21;
+}
+
+span {
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    left: 119px;
+    top: 27px;
+}
+
+h1 {
+    position: absolute;
+    width: 430px;
+    height: 62px;
+    left: 218px;
+    top: 40px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+
+    color: #F9B23D;
+    
+}

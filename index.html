@@ -11,7 +11,6 @@
 <body>
   <!-- NAVIGATION -->
     <header class = "nav-game">
-      <div class="row d-inline-flex p-3">
         <div class="col-12">
           <a href="#"><</a><img src="assets/logo 1.png" alt="logo-game">
           <span>ROCK PAPER SCISSORS</span>
@@ -19,41 +18,34 @@
     </header>
     <!-- GAME-PLAY -->
 <section class= "game-play">
-  <div class="row">
-    <div class="column">
-    <table class="player-side" cellspacing="0" cellpadding="0">
-      <tr>
-        <td class="player_name">player 1</td>
-      </tr>
-      <tr>
-        <td class="game-picture" id="ROCK"><img src="assets/batu.png" alt="batu"></td>
-      </tr>
-      <tr>
-        <td class="game-picture" id="Paper"><img src="assets/kertas.png" alt="kertas"></td>
-      </tr>
-      <tr>
-        <td class="game-picture" id="Scissors"><img src="assets/gunting.png" alt="gunting"></td>
-      </tr>
-    </table>
+  <div class="container">
+    <div class="row">
+    <div class="col-1"></div>
+    <div class="col-4 flex-column" style="text-align: center;">
+      <div class="player-name">player 1</div>
+      <button class="rock game-picture"><img src="assets/batu.png" alt="rock"></button>
+      <button class="paper game-picture"><img src="assets/kertas.png" alt="paper"></button>
+      <button class=" scissors game-picture"><img src="assets/gunting.png" alt="scissors"></button>
+      </div>
+    <div class="col-2 align-self-center" style="text-align: center;">
+      <div class="game-sign">
+        <h1>vs</h1>
+        <h1 style="display: none;">player 1 win</h1>
+        <h1 style="display: none;">com win</h1>
+        <h1 style="display: none;">draw</h1>
+      </div>
     </div>
-
-    <div class="column justify-content-end">
-    <table class="com-side" cellspacing="0" cellpadding="0">
-      <tr>
-        <td class="player_name">com</td>
-      </tr>
-      <tr>
-        <td class="game-picture" id="ROCK"><img src="assets/batu.png" alt="batu"></td>
-      </tr>
-      <tr>
-        <td class="game-picture" id="Paper"><img src="assets/kertas.png" alt="kertas"></td>
-      </tr>
-      <tr>
-        <td class="game-picture" id="Scissors"><img src="assets/gunting.png" alt="gunting"></td>
-      </tr>
-    </table>
-    </div>
-  </div>
+    <div class="col-4 flex-column" style="text-align: center;">
+      <div class="player-name">com</div>
+      <div class="com-choice game-picture"><img src="assets/batu.png" alt="rock"></div>
+      <div class="com-choice game-picture"><img src="assets/kertas.png" alt="paper"></div>
+      <div class="com-choice game-picture"><img src="assets/gunting.png" alt="scissors"></div>
+      </div>
+      <div class="col-1" style="width: 100%;"></div>
+      </div>
+      <div class="game-picture" style="text-align: center;" id="refresh-icon"><img src="assets/refresh.png" alt="refresh"></div>
 </section>
 </body>
 </html>
+
+<script src="game.js"></script>

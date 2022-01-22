@@ -56,17 +56,19 @@ body {
 	height: 100%;
 }
 
-.game-sign {
+.game-label {
     font-weight: bold;
     font-size: 144px;
     line-height: 196px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
 
-    color: #BD0000;;
+    color: #BD0000;
 }
 
-.game-picture img:hover {
-    background: #C4C4C4;
+/* .game-picture img:hover {
+    background-color: #C4C4C4;
+    background-color: 30px;
+
     cursor: pointer;
-}
+} */
